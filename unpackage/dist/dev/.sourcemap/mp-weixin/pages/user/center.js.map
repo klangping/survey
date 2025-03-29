@@ -1,0 +1,1 @@
+{"version":3,"file":"center.js","sources":["../../../ps素材/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvdXNlci9jZW50ZXIudnVl"],"sourcesContent":["import MiniProgramPage from 'D:/问卷调查系统的设计与实现/uniapp/survey/pages/user/center.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

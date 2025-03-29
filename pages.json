@@ -1,0 +1,91 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "问卷系统"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false,
+					"webviewOptions": {
+						"hardwareAccelerated": true,
+						"renderInH5Container": false
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/center",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/survey/edit",
+			"style": {
+				"navigationBarTitleText": "问卷编辑"
+			}
+		},
+		{
+			"path": "pages/survey/list",
+			"style": {
+				"navigationBarTitleText": "问卷列表"
+			}
+		},
+		{
+			"path": "pages/survey/create",
+			"style": {
+				"navigationBarTitleText": "问卷创造"
+			}
+		},
+		{
+			"path": "pages/survey/answer",
+			"style": {
+				"navigationBarTitleText": "填写问卷",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/survey/stats",
+			"style": {
+				"navigationBarTitleText": "问卷统计"
+			}
+		},
+	],
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#007aff",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/user/center",
+				"text": "我的",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#f5f5f5"
+	}
+}

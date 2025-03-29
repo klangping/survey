@@ -1,0 +1,247 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.survey-edit-container.data-v-bbf24e7a {
+  padding: 20rpx;
+  padding-bottom: 120rpx;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.survey-form.data-v-bbf24e7a {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.form-group.data-v-bbf24e7a {
+  margin-bottom: 30rpx;
+}
+.form-group.data-v-bbf24e7a:last-child {
+  margin-bottom: 0;
+}
+.label.data-v-bbf24e7a {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+  font-weight: 500;
+}
+.required.data-v-bbf24e7a {
+  color: #ff3b30;
+  margin-left: 6rpx;
+}
+.input.data-v-bbf24e7a,
+.textarea.data-v-bbf24e7a,
+.picker.data-v-bbf24e7a {
+  width: 100%;
+  padding: 20rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: #333;
+  background-color: #fff;
+}
+.input.data-v-bbf24e7a {
+  height: 80rpx;
+}
+.textarea.data-v-bbf24e7a {
+  height: 150rpx;
+}
+.picker.data-v-bbf24e7a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.questions-section.data-v-bbf24e7a {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+}
+.section-header.data-v-bbf24e7a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.section-title.data-v-bbf24e7a {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
+}
+.add-question-btn.data-v-bbf24e7a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+  padding: 0 20rpx;
+  background-color: #f0f7ff;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  color: #007aff;
+}
+.add-question-btn text.data-v-bbf24e7a {
+  margin-left: 8rpx;
+}
+.empty-questions.data-v-bbf24e7a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx 0;
+}
+.empty-questions image.data-v-bbf24e7a {
+  width: 200rpx;
+  height: 200rpx;
+  opacity: 0.6;
+  margin-bottom: 20rpx;
+}
+.empty-questions text.data-v-bbf24e7a {
+  font-size: 28rpx;
+  color: #999;
+}
+.question-item.data-v-bbf24e7a {
+  padding: 30rpx;
+  background-color: #fafafa;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid #eee;
+}
+.question-item.data-v-bbf24e7a:last-child {
+  margin-bottom: 0;
+}
+.question-header.data-v-bbf24e7a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.drag-handle.data-v-bbf24e7a {
+  margin-right: 15rpx;
+}
+.question-title.data-v-bbf24e7a {
+  flex: 1;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+}
+.question-content.data-v-bbf24e7a {
+  padding-left: 40rpx;
+}
+.question-input.data-v-bbf24e7a {
+  width: 100%;
+  padding: 20rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.question-settings.data-v-bbf24e7a {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.setting-item.data-v-bbf24e7a {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #666;
+}
+.setting-item text.data-v-bbf24e7a {
+  margin-right: 10rpx;
+}
+.setting-item .picker.data-v-bbf24e7a {
+  width: 180rpx;
+  padding: 10rpx 15rpx;
+  font-size: 26rpx;
+}
+.options-editor.data-v-bbf24e7a {
+  margin-top: 20rpx;
+}
+.action-buttons.data-v-bbf24e7a {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding: 20rpx;
+  background-color: #fff;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.cancel-btn.data-v-bbf24e7a,
+.save-btn.data-v-bbf24e7a {
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+}
+.cancel-btn.data-v-bbf24e7a {
+  background-color: #f5f5f5;
+  color: #666;
+  margin-right: 15rpx;
+}
+.save-btn.data-v-bbf24e7a {
+  background-color: #007aff;
+  color: #fff;
+}
+.add-question-popup.data-v-bbf24e7a {
+  padding: 40rpx;
+  background-color: #fff;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.popup-title.data-v-bbf24e7a {
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 30rpx;
+  color: #333;
+}
+.question-type-options.data-v-bbf24e7a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.type-option.data-v-bbf24e7a {
+  width: 48%;
+  padding: 30rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  border: 1rpx solid #eee;
+  border-radius: 8rpx;
+}
+.type-option text.data-v-bbf24e7a {
+  margin-top: 15rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.type-option.data-v-bbf24e7a:active {
+  background-color: #f5f5f5;
+}

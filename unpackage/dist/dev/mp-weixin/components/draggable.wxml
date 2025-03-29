@@ -1,0 +1,1 @@
+<view bindtouchstart="{{a}}" bindtouchmove="{{b}}" bindtouchend="{{c}}"><slot></slot></view>

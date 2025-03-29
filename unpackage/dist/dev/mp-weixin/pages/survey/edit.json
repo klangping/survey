@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "问卷编辑",
+  "usingComponents": {
+    "draggable": "../../components/draggable",
+    "options-editor": "../../components/OptionsEditor"
+  }
+}

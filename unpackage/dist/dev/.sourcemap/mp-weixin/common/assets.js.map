@@ -1,0 +1,1 @@
+{"version":3,"file":"assets.js","sources":["../../../static/empty.png","../../../static/empty-questions.png"],"sourcesContent":["export default \"/static/empty.png\"","export default \"/static/empty-questions.png\""],"names":[],"mappings":";AAAA,MAAe,eAAA;ACAf,MAAe,aAAA;;;"}

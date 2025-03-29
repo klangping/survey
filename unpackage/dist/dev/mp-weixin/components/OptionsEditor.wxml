@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="options-editor"><view wx:for="{{b}}" wx:for-item="option" wx:key="d" class="option-item"><input placeholder="输入选项内容" value="{{option.a}}" bindinput="{{option.b}}"/><button bindtap="{{option.c}}">删除</button></view><button bindtap="{{c}}">添加选项</button></view>
