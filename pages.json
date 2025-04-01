@@ -61,7 +61,7 @@
 			"style": {
 				"navigationBarTitleText": "问卷统计"
 			}
-		},
+		}
 	],
 	"tabBar": {
 		"color": "#999",
